@@ -1,6 +1,7 @@
 React-JWT(Login Logout)-1
-HOC
 Routing6
+HOC
+///////////////
 Github
 Deployment
 -> MERN
@@ -48,3 +49,9 @@ queryparams
 /******UserInfo*****/
 (GET) => https://developerjwt.herokuapp.com/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
+
+
+///https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
+
+
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
