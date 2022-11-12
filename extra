@@ -5,13 +5,14 @@ Github
 ///////////////
 Deployment
 -> MERN
+-> ReactPy
 -> heroku
 -> Netlify
--> ReactPy
 -> Aws
 -> Docker
 -> Nginx
 -> Jenkins
+
 React-GraphQL - 1 
 Basic React Native- 1
 Testing
@@ -57,3 +58,12 @@ queryparams
 https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
 
 https://git-scm.com/downloads> Install
+
+
+////////////////////////////////////
+Step to generate application build
+////////////////////////////////
+> npm run build
+
+docker build . -t rout6
+docker run -p 3000:9800 rout6

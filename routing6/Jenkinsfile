@@ -1,0 +1,22 @@
+pipeline{
+    agent Any
+    tools {nodejs "NodeJs"}
+    stages {
+        stage("Install"){
+            step {
+                sh "npm install"
+            }
+        }
+        stage("Build"){
+            step {
+                sh "npm run build"
+            }
+        }
+        stage("Deploy"){
+            step {
+                sh "rm -rf /usr/local/var/www/react-code/build"
+                sh "cp -R /Users/aakash/.jenkins/workspace/reactcode/build /usr/local/var/www/react-code/build"
+            }
+        }
+    }
+}
